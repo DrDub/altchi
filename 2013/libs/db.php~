@@ -1,0 +1,11 @@
+<?php
+
+$dbuser = "rost";
+$dbpass = "s3cr3t";
+$dbname = "altchi";
+$dbprefix = "altchi_";
+
+@mysql_connect(localhost, $dbuser, $dbpass) or die("Unable to connect to db!");
+mysql_select_db($dbname);
+
+?>
